@@ -32,7 +32,7 @@ public class Task2 {
 			}
 			
 			while (true) {
-				if (((numerator % nod) == 0) && ((denominator % nod) == 0))
+				if (((numerator % nod) == 0) && ((denominator % nod) == 0))// куда пропали { }
 					break;
 				nod--;
 			}

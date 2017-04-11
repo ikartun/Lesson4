@@ -15,7 +15,8 @@ public class Task1 {
 		customer.getCustomerByAccountNumAndCardNum(1234567890, 222222222);
 	}
 	
-	public class Student {
+	public class Student {// один класс - один файл
+		// не нужно без необходимости вкладывать слассы в классы
 		private int id;
 		private String lastName;
 		private String firstName;
